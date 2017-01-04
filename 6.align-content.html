@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        align-content: flex-start;
+        /*align-content: flex-end;*/
+        /*align-content: center;*/
+        /*align-content: space-between;*/
+        /*align-content: space-around;*/
+        /*align-content: stretch;*/
+
+        /*align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。*/
+
+        /*flex-start：与交叉轴的起点对齐。*/
+        /*flex-end：与交叉轴的终点对齐。*/
+        /*center：与交叉轴的中点对齐。*/
+        /*space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。*/
+        /*space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。*/
+        /*stretch（默认值）：轴线占满整个交叉轴。*/
+
+        height: 600px;
+        width: 800px;
+        background-color: blue;
+    }
+    .item{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+    </div>
+</body>
+</html>

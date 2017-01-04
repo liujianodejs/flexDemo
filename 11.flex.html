@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        height: 600px;
+        width: 800px;
+        background-color: blue;
+        flex-direction: column;
+    }
+    .item{
+        height: 100px;
+        background-color: red;
+        margin: 1px;
+        flex:1;
+
+        /*flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。*/
+
+        /*该属性有两个快捷值：auto (1 1 auto) 和 none (0 0 auto)。*/
+
+        /*建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。*/
+
+    }
+    .item1{
+        flex: 10;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+    </div>
+</body>
+</html>

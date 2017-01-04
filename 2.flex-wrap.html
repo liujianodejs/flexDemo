@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-wrap: nowrap;
+        /*flex-wrap: wrap;*/
+        /*flex-wrap: wrap-reverse;*/
+
+        /*默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。*/
+
+
+        /*nowrap（默认）：不换行。*/
+        /*wrap：换行，第一行在上方。*/
+        /*wrap-reverse：换行，第一行在下方。*/
+
+    }
+    .item{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+    </div>
+</body>
+</html>
